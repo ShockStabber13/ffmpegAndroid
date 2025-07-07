@@ -29,6 +29,8 @@ ENABLED_CONFIG="\
 		--enable-muxer=matroska \
 		--enable-muxer=mp4 \
 		--enable-muxer=flv \
+  		--enable-network \
+
 "
 
 ### Disable FFMPEG BUILD MODULES ####
@@ -42,7 +44,6 @@ DISABLED_CONFIG="\
 		--disable-indevs \
 		--disable-libxml2 \
 		--disable-avdevice \
-		--disable-network \
 		--disable-static \
 		--disable-debug \
 		--disable-ffplay \
