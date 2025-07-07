@@ -31,6 +31,7 @@ ENABLED_CONFIG="\
 		--enable-muxer=flv \
   		--enable-muxer=webm \
   		--enable-network \
+    		--enable-protocol=file.
 
 "
 
