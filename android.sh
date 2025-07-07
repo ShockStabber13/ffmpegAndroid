@@ -29,6 +29,7 @@ ENABLED_CONFIG="\
 		--enable-muxer=matroska \
 		--enable-muxer=mp4 \
 		--enable-muxer=flv \
+  		--enable-muxer=webm \
   		--enable-network \
 
 "
