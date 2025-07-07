@@ -24,8 +24,12 @@ ENABLED_CONFIG="\
     		--enable-decoder=aac \
       		--enable-decoder=hevc \
 		--enable-decoder=opus \
-		--enable-shared "
-
+		--enable-shared 
+ 	 	--enable-muxer=mpegts \
+		--enable-muxer=matroska \
+		--enable-muxer=mp4 \
+		--enable-muxer=flv \
+"
 
 ### Disable FFMPEG BUILD MODULES ####
 DISABLED_CONFIG="\
