@@ -33,7 +33,10 @@ ENABLED_CONFIG="\
   		--enable-network \
     		--enable-protocol=file \
       		--enable-protocol=http \
-		--enable-protocol=ftp
+		--enable-protocol=ftp \
+  		--enable-protocol=webdav \
+    		--enable-protocol=https
+
 
 "
 
