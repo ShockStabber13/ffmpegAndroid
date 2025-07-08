@@ -32,7 +32,8 @@ ENABLED_CONFIG="\
   		--enable-muxer=webm \
   		--enable-network \
     		--enable-protocol=file \
-      		--enable-protocol=http
+      		--enable-protocol=http \
+		--enable-protocol=ftp
 
 "
 
